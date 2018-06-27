@@ -1,0 +1,41 @@
+
+input[type=text] {
+    padding: 12px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+}
+
+button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #2bbcde;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #fa6121;
+}
+
+.search {
+    max-width: 300px;
+    margin: auto;
+}
+
+form.search::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.icon {
+    width: 20px;
+    height: 19px;
+}
