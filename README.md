@@ -1,2 +1,2 @@
 # Entity Converter
-HTML Entity converter and Emoji finder
+HTML Entity converter
